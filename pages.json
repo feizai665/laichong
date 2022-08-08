@@ -1,0 +1,83 @@
+{
+	"pages": [
+    {
+            "path" : "pages/home/home",
+            "style" :
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" :                                                                         
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                          
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : 
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+    "subPackages": [
+      {
+        "root": "subpkb",
+        "pages": [ 
+        ]
+      }
+    ],
+    "tabBar": {
+      "selectedColor": "#fde55b",
+      "list": [
+        {
+          "pagePath": "pages/home/home",
+          "text": "首页",
+          "iconPath": "static/images/tabbar/home.png",
+          "selectedIconPath": "static/images/tabbar/homeactive.png"
+        },
+        {
+          "pagePath": "pages/cate/cate",
+          "text": "分类",
+          "iconPath": "static/images/tabbar/cart.png",
+          "selectedIconPath": "static/images/tabbar/cateactive.png"
+        },
+        {
+          "pagePath": "pages/cart/cart",
+          "text": "购物车",
+          "iconPath": "static/images/tabbar/cart.png",
+          "selectedIconPath": "static/images/tabbar/cartactive.png"
+        },
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "static/images/tabbar/me.png",
+          "selectedIconPath": "static/images/tabbar/meactive.png"
+        }
+      ]
+    },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
