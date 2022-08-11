@@ -2,6 +2,7 @@
 
 import Vue from 'vue'
 import App from './App'
+import store from '@/store/store.js'
 // main.js
 Vue.config.productionTip = false
 import uView from '@/uni_modules/uview-ui'
@@ -33,7 +34,8 @@ $http.afterRequest = function() {
   uni.hideLoading()
 }
 const app = new Vue({
-  ...App
+  ...App,
+  store
 })
 app.$mount()
 // #endif

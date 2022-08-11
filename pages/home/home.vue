@@ -54,7 +54,7 @@
             </text>
             <view class="home-like-box" style="display: flex;
     justify-content: space-between;">
-              <text style="color: red;">￥{{item.price?item.price:0}}.00</text>
+              <text style="color: red;">￥{{item.price?item.price:0}}</text>
               <text style="color: #aaa;">已售{{item.sales?item.sales:'0'}}件</text>
             </view>
           </navigator>

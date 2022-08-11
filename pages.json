@@ -30,13 +30,25 @@
   "subPackages": [{
     "root": "subpkb",
     "pages": [{
-      "path": "goods_list/goods_list",
+      "path": "goods_detail/goods_detail",
       "style": {
         "navigationBarTitleText": "",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#fff",
+
         "enablePullDownRefresh": false
       }
 
-    }]
+    }    ,{
+                    "path" : "goods_list/goods_list",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
   }],
   "tabBar": {
     "selectedColor": "#fde55b",
